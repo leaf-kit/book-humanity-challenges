@@ -1,0 +1,53 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EDE4FB"/>
+      <stop offset="55%" stop-color="#DCEAFB"/>
+      <stop offset="100%" stop-color="#E1F4EA"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="1600" fill="url(#bg)"/>
+
+  <!-- 중앙 궤도 모티프: 물음표를 도는 작은 원 -->
+  <g stroke="#1e1e1e" stroke-width="3" fill="none" opacity="0.55">
+    <ellipse cx="600" cy="660" rx="300" ry="120" transform="rotate(-18 600 660)"/>
+    <ellipse cx="600" cy="660" rx="300" ry="120" transform="rotate(42 600 660)"/>
+    <ellipse cx="600" cy="660" rx="300" ry="120" transform="rotate(102 600 660)"/>
+  </g>
+  <circle cx="600" cy="660" r="150" fill="#FBF1D6" stroke="#1e1e1e" stroke-width="3"/>
+  <text x="600" y="705" font-family="Georgia, 'Noto Serif KR', serif" font-size="150" font-weight="700" fill="#1e1e1e" text-anchor="middle">?</text>
+  <circle cx="750" cy="540" r="16" fill="#FBE6E2" stroke="#1e1e1e" stroke-width="2.5"/>
+  <circle cx="430" cy="760" r="12" fill="#E1F4EA" stroke="#1e1e1e" stroke-width="2.5"/>
+  <circle cx="790" cy="790" r="10" fill="#DCEAFB" stroke="#1e1e1e" stroke-width="2.5"/>
+
+  <!-- 제목 -->
+  <text x="600" y="1020" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="92" font-weight="800" fill="#1e1e1e" text-anchor="middle">인류 난제 아카이브</text>
+  <text x="600" y="1080" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="34" fill="#444" text-anchor="middle">분야별 미해결 문제 등록소</text>
+
+  <!-- 하단 아이콘 띠: 수학, 생명, 물리, 정신 -->
+  <g font-family="Georgia, serif" font-size="46" text-anchor="middle" stroke="#1e1e1e" stroke-width="2.5">
+    <circle cx="330" cy="1260" r="56" fill="#FBE6E2"/>
+    <text x="330" y="1278" fill="#1e1e1e" stroke="none">π</text>
+
+    <circle cx="490" cy="1260" r="56" fill="#E1F4EA"/>
+    <path d="M 462 1234 Q 490 1260 518 1234 M 462 1286 Q 490 1260 518 1286 M 462 1234 L 462 1286 M 518 1234 L 518 1286" fill="none" stroke="#1e1e1e" stroke-width="3"/>
+
+    <circle cx="650" cy="1260" r="56" fill="#DCEAFB"/>
+    <g fill="none" stroke="#1e1e1e" stroke-width="2.5">
+      <circle cx="650" cy="1260" r="6" fill="#1e1e1e" stroke="none"/>
+      <ellipse cx="650" cy="1260" rx="34" ry="14"/>
+      <ellipse cx="650" cy="1260" rx="34" ry="14" transform="rotate(60 650 1260)"/>
+      <ellipse cx="650" cy="1260" rx="34" ry="14" transform="rotate(120 650 1260)"/>
+    </g>
+
+    <circle cx="810" cy="1260" r="56" fill="#FBF1D6"/>
+    <text x="810" y="1280" fill="#1e1e1e" stroke="none" font-size="42">∞</text>
+
+    <circle cx="970" cy="1260" r="56" fill="#F2F2F2"/>
+    <text x="970" y="1280" fill="#1e1e1e" stroke="none" font-size="38">AI</text>
+  </g>
+
+  <text x="600" y="1460" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#555" text-anchor="middle">수학, 전산학, 물리학, 생로병사, 신경과학과 심리학, 철학, 종교</text>
+  <text x="600" y="1510" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#777" text-anchor="middle">리프 메타 (leaf meta)</text>
+</svg>

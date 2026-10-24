@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "이 저장소를 인용하려면 아래 정보를 쓴다. 문제 하나하나를 인용할 때는 README.md의 「인용하려면」 절을 따른다."
+title: "인류 난제 아카이브"
+type: dataset
+authors:
+  - name: "leaf meta"
+date-released: 2026-10-24
+url: "https://github.com/leaf-kit/book-humanity-challenges"
+repository-code: "https://github.com/leaf-kit/book-humanity-challenges"
+license: MIT
+keywords:
+  - 수학
+  - 물리학
+  - 생물학
+  - 신경과학
+  - 철학
+  - 종교
+  - 미해결 문제
+  - artificial intelligence
